@@ -45,13 +45,15 @@ body {
 
 .navbar {
   margin-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
   @include box-shadow;
   border: none;
   .navbar-brand {
-    text-transform: uppercase;
+    font-family: 'Marck Script', cursive;
+/*    text-transform: uppercase;*/
     letter-spacing: -1px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     a {
       color: $grey;
     }
@@ -60,6 +62,7 @@ body {
 
 .recipe {
   background: white;
+  font-family: 'Montserrat', sans-serif;
   border-radius: 5px;
   margin-bottom: 40px;
   @include box-shadow;
@@ -85,7 +88,7 @@ body {
     font-weight: normal;
     line-height: 1.5;
     a {
-      color: $grey;
+      color: black;
     }
   }
 }
